@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+    <link rel="stylesheet" href="./styleCSS/reset.css">
+    <link rel="stylesheet" href="./styleCSS/master.css">
+    <link rel="stylesheet" href="./styleCSS/style.css">
+    <script src="https://kit.fontawesome.com/8e222dcd47.js" crossorigin="anonymous"></script>
+    <script src="./Javascript/script.js" type="module"></script>
+    <title>Course Project - Fien Denblinden</title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li id="home">TEMPERATURA</li>
+
+            <li> <a href="Pages/form.html">CONTACT US</a> </li>
+            <li><a href="Pages/about.html">ABOUT US</a> </li>
+            <li><a href="Pages/diary.html">MY DIARY</a> </li>
+            <li> <a href="index.html" class="active">WEATHER</a></li>
+
+        </ul>
+    </nav>
+
+    <div class="bg"></div>
+    <div class="bg bg2"></div>
+    <div class="bg bg3"></div>
+
+    <header>
+
+        <form id="formLocation">
+            <i class="fas fa-search"></i>
+            <input type="text" id="location" name="locatie" placeholder="Typ in a city name ">
+        </form>
+
+        <div id="city"></div>
+
+        <table id="table1">
+            <thead>
+                <tr>
+                    <th>Today</th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody id="weatherToday">
+            </tbody>
+        </table>
+
+        <table id="table2">
+            <thead>
+                <tr>
+                    <th>Tomorrow</th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody id="weatherTomorrow">
+            </tbody>
+        </table>
+
+        <a href="#3days"><img src="IMG/scroll.png" alt="scroll"></a>
+    </header>
+
+
+
+
+    <main id="mainHome">
+        <section>
+            <h2 id="3days">5-day overview</h2>
+            <div>
+                <canvas id="myChart"></canvas>
+                <a href="#5days"><img src="IMG/scroll - white.png " alt="scroll-white"></a>
+            </div>
+
+        </section>
+
+
+        <section>
+            <h2 id="5days">Next 5 days</h2>
+
+            <table id="weatherFiveDays">
+
+            </table>
+            <a href="#detail5days"><img src="IMG/scroll.png" alt="scroll"></a>
+        </section>
+
+
+        <section>
+            <h2 id="detail5days">Next 5 days in detail</h2>
+            <table id=weatherFiveDaysDetail>
+
+            </table>
+
+        </section>
+    </main>
+
+
+    <footer>
+        <a href="#home">TEMPERATURA</a>
+        <p> &copy; Made by Fien Denblinden</p>
+    </footer>
+
+</body>
+
+</html>

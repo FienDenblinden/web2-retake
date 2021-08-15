@@ -1,0 +1,500 @@
+/* PAGE HOME.HTML *********************************************************************************/
+
+/* HEADER  */
+
+header form,
+header div {
+    float: left;
+    width: 40%;
+    margin: 3% 0% 5% 0%;
+    margin-left: 50px;
+}
+
+header form i {
+    margin: 0% 1% 0% 5%;
+    font-size: 1.5em;
+    color: #42454D;
+}
+
+header form input {
+    border: solid 1px grey;
+    border-radius: 5px;
+    padding: 5px 5px 5px 10px;
+}
+
+
+
+
+header div {
+    margin-left: 15%;
+}
+
+header div i {
+    margin: 0% 1% 0% 5%;
+    font-size: 2em;
+    float: left;
+}
+
+header div h1 {
+    padding: 5px;
+    float: left;
+    width: 100%;
+}
+
+#table1 {
+    width: 40%;
+    height: 40%;
+    text-align: left;
+    margin: 0% 0% 3% 5%;
+    float: left;
+    background-color: white;
+    border-radius: 2%;
+}
+
+
+#table1 th {
+    padding-left: 10px;
+    font-weight: bold;
+    padding: 50px 0px 0px 50px;
+}
+
+#table1 td {
+    width: 30%;
+    padding: 20px 0px 50px 50px;
+}
+
+#table1 td img {
+    width: 30%;
+    display: block;
+}
+
+/* bron voor description : w3schools */
+
+#table1 .description {
+    position: relative;
+    display: inline-block;
+  }
+  
+ #table1 .description .descriptionText {
+    visibility: hidden;
+    width: 200px;
+    background-color: #42454D;
+    color: #fff;
+    text-align: center;
+    font-size: 0.8em;
+    border-radius: 6px;
+    padding: 10px;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -60px;
+  }
+  
+#table1 .description .descriptionText::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 25%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+  }
+  
+  #table1 .description:hover .descriptionText {
+    visibility: visible;
+  }
+
+#table2 {
+    width: 40%;
+    height: 40%;
+    text-align: left;
+    margin: 0% 5% 3% 10%;
+    float: left;
+    background-color: white;
+    border-radius: 2%;
+    padding: 50px;
+}
+
+#table2 th {
+    padding-left: 10px;
+    font-weight: bold;
+    padding: 50px 0px 0px 50px;
+}
+
+
+   
+#table2 td {
+    width: 30%;
+    padding: 20px 0px 50px 50px;
+
+}
+
+#table2 td img {
+    width: 30%;
+    display: block;
+}
+
+
+#table2 .description {
+    position: relative;
+    display: inline-block;
+
+  }
+  
+ #table2 .description .descriptionText {
+    visibility: hidden;
+    width: 200px;
+    background-color: #42454D;
+    color: #fff;
+    text-align: center;
+    font-size: 0.8em;
+    border-radius: 6px;
+    padding: 10px;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -60px;
+  }
+  
+#table2 .description .descriptionText::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 25%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+  }
+  
+  #table2 .description:hover .descriptionText {
+    visibility: visible;
+  }
+
+header a img {
+    display: block;
+    margin: auto;
+    width: 3%;
+}
+
+
+/* MAIN  */
+
+/* SECTION1 */
+#mainHome section {
+    height: 100vh;
+    width: auto;
+    background-color: #42454D;
+    color: white;
+}
+
+#mainHome section h2 {
+    padding-left: 70px;
+    padding-top: 50px;
+}
+
+#mainHome section div {
+    /* margin: auto;
+    text-align: center;
+    padding-top: 20%; */
+    margin: auto;
+    margin-top: 3%;
+    width: 60%;
+    height: 60%;
+
+}
+
+/* .myChart{
+    width: 20%;
+    height: auto;
+    margin: 5%;
+    color: white,
+} */
+
+#mainHome section div img {
+    width: 5%;
+    display: block;
+    margin: auto;
+    padding-top: 10%;
+}
+
+/* SECTION 2*/
+
+#mainHome section+section {
+    height: 100vh;
+    width: auto;
+    background-color: white;
+}
+
+#mainHome section+section h2 {
+    padding-left: 70px;
+    padding-top: 50px;
+    margin-bottom: 10%;
+    color: black;
+}
+
+#mainHome section+section table {
+    border: solid 1px black;
+    width: 70%;
+    margin: auto;
+    height: auto;
+    background-color: #3B577E;
+    color: white;
+    text-align: center;
+}
+
+#mainHome section+section table img {
+    width: 20%;
+    display: block;
+    margin: auto;
+}
+
+#mainHome section+section table tr th:first-of-type,
+#mainHome section+section tr td:first-of-type {
+    background-color: white;
+    color: black;
+}
+
+#mainHome section+section th {
+    padding-top: 15px;
+    font-weight: bold;
+    border-right: solid 1px white;
+}
+
+#mainHome section+section td {
+    padding: 15px;
+    border-right: solid 1px white;
+}
+
+#mainHome section+section img {
+    width: 3%;
+    display: block;
+    margin: auto;
+    padding-top: 12%;
+}
+
+/* SECTION 3 */
+
+#mainHome section+section+section {
+    height: 100vh;
+    width: auto;
+    background-color: #42454D;
+    color: white;
+}
+
+#mainHome section+section+section h2 {
+    padding-left: 70px;
+    padding-top: 50px;
+    margin-bottom: 10%;
+    color: white;
+}
+
+
+#mainHome section+section+section table {
+    width: 85%;
+    margin: auto;
+    height: auto;
+    color: white;
+    text-align: center;
+    background-color: #42454D;
+    border: none;
+}
+
+#mainHome section+section+section tr td:first-of-type,
+#mainHome section+section+section tr th:first-of-type {
+    text-align: left;
+    background-color: #42454D;
+    color: white;
+    font-weight: bold;
+}
+
+#mainHome section+section+section th,
+td {
+    border-right: solid 1px white;
+    padding: 15px;
+}
+
+#mainHome section+section+section table img {
+    width: 20%;
+    display: block;
+    margin: auto;
+}
+
+
+/* PAGE DAGBOEK.HTML *********************************************************************************/
+/* MAIN - mainDiary */
+
+#mainDiary {
+    margin: 5%;
+}
+
+#mainDiary section {
+    float: left;
+}
+
+#mainDiary section:last-of-type {
+    width: 40%;
+}
+
+#mainDiary article {
+    width: 42%;
+}
+
+#mainDiary section:last-of-type {
+    margin-top: 5%;
+}
+
+#mainDiary input {
+    border: none;
+    border-bottom: solid 1px black;
+    border-radius: 2px;
+    padding: 5px;
+    margin-right: 100%;
+    margin-bottom: 8%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.75em;
+    width: 50%;
+}
+
+#mainDiary textarea {
+    border: solid 1px black;
+}
+
+#mainDiary button {
+    border: solid 1px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #3B577E;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 15%;
+}
+
+
+#mainDiary div {
+    float: right;
+    width: 60%;
+    height: auto;
+    margin-top: 8%;
+}
+
+#mainDiary img {
+    width: 100%;
+    overflow: hidden;
+}
+
+
+/* PAGE ABOUT.HTML *********************************************************************************/
+
+/* MAIN - mainAbout */
+/* DIV 1 */
+#mainAbout div:first-of-type {
+    margin: 4% 0% 7% 5%;
+    overflow: hidden;
+}
+
+#mainAbout div:first-of-type article {
+    width: 40%;
+    float: left;
+}
+
+#mainAbout div:first-of-type h2 {
+    margin-bottom: 2%;
+}
+
+#mainAbout div:first-of-type img {
+    float: right;
+    width: 25%;
+    height: auto;
+    margin-right: 10%;
+}
+
+/* DIV 2 */
+#mainAbout div:last-of-type {
+    margin: 0% 5% 5% 0%;
+    overflow: hidden;
+}
+
+
+#mainAbout div:last-of-type img {
+    float: left;
+    width: 25%;
+    height: auto;
+    margin-left: 10%;
+}
+
+#mainAbout div:last-of-type article {
+    width: 40%;
+    float: right;
+    text-align: right;
+}
+
+#mainAbout div:last-of-type h2 {
+    margin-bottom: 2%;
+}
+
+/* PAGE FORM.HTML *********************************************************************************/
+
+/* MAIN - mainForm */
+
+#mainForm {
+    margin: 5%;
+}
+
+#mainForm section {
+    float: left;
+}
+
+#mainForm section:last-of-type {
+    width: 40%;
+}
+
+#mainForm article {
+    width: 42%;
+}
+
+#mainForm section:last-of-type {
+    margin-top: 5%;
+}
+
+#mainForm input,
+textarea {
+    border: none;
+    border-bottom: solid 1px black;
+    border-radius: 2px;
+    padding: 5px;
+    margin-right: 100%;
+    margin-bottom: 8%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.75em;
+    width: 50%;
+    resize: none;
+}
+
+#mainForm textarea {
+    border: solid 1px black;
+}
+
+#mainForm button {
+    border: solid 1px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #3B577E;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 15%;
+}
+
+#mainForm div {
+    float: right;
+    width: 40%;
+    height: auto;
+}
+
+#mainForm img {
+    width: 100%;
+    overflow: hidden;
+}
